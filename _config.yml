@@ -54,7 +54,7 @@ webmaster_verifications:
     # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-6YFQRPS8JY # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -106,7 +106,7 @@ toc: true
 
 comments:
   # # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: "giscus"
+  active: "giscus"
   #   # [disqus | utterances | giscus]
   #   # The provider options are as follows:
 
@@ -120,17 +120,17 @@ comments:
       # < url | pathname | title | ...>
       # Giscus options › https://giscus.app
   giscus:
-    repo: "diegosrp/diegosrp.github.io" # <gh-username>/<repo>
+    repo: diegosrp/diegosrp.github.io # <gh-username>/<repo>
     repo_id: R_kgDONZpacg # Repository ID (obtained from Giscus)
-    category: "Comments" # Name of the category to be displayed in Giscus
+    category: General # Name of the category to be displayed in Giscus
     category_id: DIC_kwDONZpacs4ClDl6 # Category ID (obtained from Giscus)
-    mapping:
+    mapping: pathname
       # optional, default to 'pathname'
       # strict: 0 # optional, default to '0'
 
-    input_position: # optional, default to 'bottom'
+    input_position: bottom # optional, default to 'bottom'
     lang: en # optional, default to the value of `site.lang`
-    reactions_enabled:
+    reactions_enabled: 1
       # optional, default to the value of `1`
 
       # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets

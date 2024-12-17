@@ -1,8 +1,8 @@
 ---
-title: Terraform + Automation Account for Windows VM - Azure Hybrid Benefit
+title: Azure Hybrid Benefit - Terraform + Automation Account for Windows VM
 date: 2023-04-14 22:00 +1300
 categories: [Automation, Terraform]
-tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, powershell, ahb, azurehybridbenefit]
+tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, powershell, ahb, azurehybridbenefit, governance, finops]
 image:
   path: /assets/img/titles/ahb.png
 ---
@@ -16,8 +16,8 @@ Azure Hybrid Benefit is a valuable cost-saving benefit that allows you to levera
 Moreover, I have automated the conversion to Azure Hybrid Benefit for Windows VM to make the process more streamlined and efficient. For more information on Azure Hybrid Benefit and how it can help you save costs on Azure, please visit: 
 <a href="https://azure.microsoft.com/en-us/pricing/hybrid-benefit/" target="_blank">https://azure.microsoft.com/en-us/pricing/hybrid-benefit/</a>
 
----
 
+<br>
 ## The Terraform code provisions the following Azure resources:
 
 | # | Resource |  File Name |
@@ -45,12 +45,15 @@ The Terraform code requires the following input parameters:
 | schedule_name | schedule name in automation account | `string` | Monthly | No |
 | mg_id | management group id that will be given permission to change the ahb configuration | `string` | `null` | Yes |
 
+<br>
 In Terraform automation, a resource group called "rg-automation" and an automation account called "aa-finops" are created. 
 A runbook with a PowerShell script is created to enable the Azure Hybrid Benefit for all VMs in existing resource groups and subscriptions to which you grant permission.
 
 In this case, the code is for the management group you specify and will run monthly on the last day of each month at 5:00 AM New Zealand time.
 
 
-Repository: <a href="https://github.com/diegosrp/ahb" target="_blank">https://github.com/diegosrp/ahb</a>   
+> ### NOTE: If you are going to use this code after 30/04/2023, it will be necessary to update the "start_time" parameter in the r_schedule.tf file.
+{: .prompt-warning }
 
-## NOTE: If you are going to use this code after 30/04/2023, it will be necessary to update the "start_time" parameter in the r_schedule.tf file.
+<br>
+Repository: <a href="https://github.com/diegosrp/ahb" target="_blank">https://github.com/diegosrp/ahb</a>
