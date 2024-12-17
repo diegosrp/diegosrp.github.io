@@ -106,7 +106,7 @@ toc: true
 
 comments:
   # # Global switch for the post-comment system. Keeping it empty means disabled.
-  active: "giscus"
+  provider: "giscus"
   #   # [disqus | utterances | giscus]
   #   # The provider options are as follows:
 
@@ -120,7 +120,7 @@ comments:
       # < url | pathname | title | ...>
       # Giscus options › https://giscus.app
   giscus:
-    repo: diegosrp/diegosrp.github.io # <gh-username>/<repo>
+    repo: "diegosrp/diegosrp.github.io" # <gh-username>/<repo>
     repo_id: R_kgDONZpacg # Repository ID (obtained from Giscus)
     category: General # Name of the category to be displayed in Giscus
     category_id: DIC_kwDONZpacs4ClDl6 # Category ID (obtained from Giscus)
