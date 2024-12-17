@@ -1,5 +1,5 @@
 <!-- ---
 title: Education
 # icon: fa-solid fa-graduation-cap
-order: 7
+order: 2
 --- -->
