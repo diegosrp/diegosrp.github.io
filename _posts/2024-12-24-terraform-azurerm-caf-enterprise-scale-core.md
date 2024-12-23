@@ -2,7 +2,7 @@
 title: Introduction to the core submodule
 date: 2024-12-24 00:30 +1300
 categories: [Azure CAF, terraform-azurerm-caf-enterprise-scale]
-tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, security, governance, core, caf, management, policy, enterprise-scale]
+tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastructure, security, governance, core, caf, management, policy, enterprise-scale]
 ---
 
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
@@ -13,7 +13,7 @@ The core capability of this module deploys the foundations of the conceptual arc
 
 ![](/assets/img/posts/core_module.png)
 
-## Resource types
+### Resource types
 
 | Resource | Azure resource type |  Terraform resource type |
 |--|--|--
@@ -69,12 +69,12 @@ All Subscriptions will inherit Owner permissions from the Management Group hiera
 
 ---
 
-## Reduce scope of access control
+### Reduce scope of access control
 To enable access to newly created Subscriptions whilst maintaining a security boundary from other parts of your hierarchy, consider provisioning a dedicated Management Group under the Tenant Root Group and configuring this as the default Management Group. This Management Group should not be managed by this module, and should be configured with the required permissions for the identity deploying this module to access it. By granting Terraform access to this Management Group, Terraform will be able to on-board new Subscriptions into the Azure landing zone hierarchy without needing additional permissions on the Tenant Root Group.
 
 ---
 
-## Brownfield deployments
+### Brownfield deployments
 For brownfield environments, you may also wish to manually move existing Subscriptions into a custom default Management Group (as above) to enable on-boarding into the module, but always check the impact this will have on any existing policy and access control settings.
 
 ---

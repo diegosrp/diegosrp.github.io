@@ -2,7 +2,7 @@
 title: Azure Hybrid Benefit - Terraform + Automation Account for Windows VM
 date: 2023-04-14 22:00 +1300
 categories: [Automation, Terraform]
-tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, powershell, ahb, azurehybridbenefit, governance, finops]
+tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastructure, powershell, ahb, azurehybridbenefit, governance, finops]
 image:
   path: /assets/img/titles/ahb.png
 ---

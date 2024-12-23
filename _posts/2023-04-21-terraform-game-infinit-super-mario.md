@@ -2,7 +2,7 @@
 title: Infinit Mario Bros 
 date: 2023-04-21 22:00 +1300
 categories: [PlaySpace, Game]
-tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, docker, container, game, mariobros]
+tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastructure, docker, container, game, mariobros]
 ---
 
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
