@@ -1,7 +1,7 @@
 ---
 title: Tips for Terraform Best Practices
 date: 2024-01-23 22:00 +1300
-categories: [Automation, Terraform]
+categories: [Concepts & Tips, HashiCorp Terraform]
 tags: [hashicorp, terraform, iac, automation, infrastructure, governance, bestpractices, finops]
 image:
   path: /assets/img/titles/tf_best_practices.png

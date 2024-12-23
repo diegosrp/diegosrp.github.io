@@ -1,7 +1,7 @@
 ---
 title: Understanding the blocks of Terraform
 date: 2024-01-30 22:00 +1300
-categories: [Automation, Terraform]
+categories: [Concepts & Tips, HashiCorp Terraform]
 tags: [hashicorp, terraform, iac, automation, infrastructure, governance, finops]
 ---
 
