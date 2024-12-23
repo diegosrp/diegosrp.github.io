@@ -12,7 +12,7 @@ Are you a fan of the iconic game Mario? If you've played it before, you'll know 
 
 To relive those good old days and have some fun, I created an automation using Terraform + Azure, utilizing the concept of a "module" to deploy the **Infinite Super Mario game**.
 
-![](/assets/img/titles/infinite_mario_bros.png)
+![](/assets/img/posts/infinite_mario_bros.png)
 
 We found an amazing image on Docker Hub that made it easy to set up and play this beloved game.
 
