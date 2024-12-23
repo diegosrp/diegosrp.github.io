@@ -1,7 +1,7 @@
 ---
 title: What is Terraform?
 date: 2024-01-13 22:00 +1300
-categories: [Automation, Terraform]
+categories: [Concepts & Tips, HashiCorp Terraform]
 tags: [hashicorp, terraform, iac, automation, infrastructure, governance, finops]
 ---
 
