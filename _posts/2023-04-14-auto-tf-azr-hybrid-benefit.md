@@ -30,7 +30,7 @@ Moreover, I have automated the conversion to Azure Hybrid Benefit for Windows VM
 | 06 | Associate the schedule in the runbook within the automation account | a_ahb_schedule.tf |
 | 07 | Role Assignment in Management Group | r_ahb_iam.tf |
 
-![image](https://user-images.githubusercontent.com/73967829/232182703-e7426a21-4a27-4f49-baa1-542ad72e3001.png)
+![](/assets/img/posts/ahb_diagram.png)
 
 ## Inputs
 The Terraform code requires the following input parameters:
