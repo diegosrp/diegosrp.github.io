@@ -79,76 +79,38 @@ comments: true
 </head>
 <body>
     <div class="container">
-        <h1>What drives you? <br> What motivates you? <br> <br> What makes or made you the person you are today?</h1>
-        <span class="highlight">Don’t answer just yet! Read first.</span>
-        
+        <h1>What makes or made you the person you are today?</h1>
+
+        <br>
         <div class="content-section">
-            <p>My passion for computers and the digital world began in childhood, back when computers were big, noisy, and used floppy disks. It was on one of those machines that I eagerly played <em>SkiFree,</em> <em>Pinball</em> and other classics. Then came the era of CD-ROMs, and I fell in love with <em>Full Throttle</em>.</p>
-        </div>
-        <div class="content-section">
-            <p>I remember it like it was yesterday: I used to accompany my father to a friend’s house on the street behind ours to help fix his computer. We’d spend hours there so long that my mom would call, worried about the delay. On our way back, my dad and I would race to see who’d get home first. I always won. Maybe he let me win to make me happy. These simple but deeply meaningful moments are etched into my memory forever.</p>
+            <p>My passion for computers began in childhood, back when computers were big, noisy, and had floppy disks. I used to accompany my father to a friend’s house on the street behind ours to help fix his computer. On our way back, my dad and I would race to see who’d get home first. I always won. Maybe he let me win to make me happy. These simple but deeply meaningful moments are etched into my memory forever.</p>
         </div>
 
         <div class="content-section">
-            <p>As a teenager, I fully immersed myself in the digital world. At first, I was just an enthusiastic user, spending hours on the computer: gaming, listening to music, or chatting on mIRC. Noticing my excitement and my lack of bedtime limits my dad started to regulate my screen time. He set up a firewall (Black ICE, have you heard about it?) to block computer usage during certain hours.</p>
+            <p>As a teenager, I was just an enthusiastic user, spending hours on the computer: gaming, listening to music, or chatting on mIRC. Noticing my excitement and my lack of bedtime limits my dad started to regulate my screen time. He configured the system to limit app usage during certain hours.</p>
         </div>
 
         <div class="content-section">
-            <p>And that’s when our “game” began. He’d come up with ways to stop me from staying up late on the computer, and I’d challenge myself to find ways to bypass his restrictions. This “strategy game” turned into a fun learning experience that deepened my love for technology.</p>
+            <p>And that’s when our “game” began. He’d come up with ways to stop me from staying up late on the computer, and I’d challenge myself to find ways to bypass his restrictions. This turned into a fun learning experience that deepened my love for technology.</p>
         </div>
 
         <div class="content-section">
-            <p>At the end of high school, when the time came to decide on a college major, I was torn between Physical Education (another passion of mine) and Technology. I ultimately chose the path of technology, which is now both my profession and my passion.</p>
+            <p>The answer to the question at the beginning of this text? <b>My dad!</b></p>
         </div>
 
         <div class="content-section">
-            <p>The answer to all the questions at the beginning of this text? <b>My dad!</b></p>
+            <p>My father is my greatest source of inspiration. He taught me to fight for my dreams, celebrated all my achievements, and, even though it saddened him to know I’d move to the other side of the world, encouraged me to go.</p>
         </div>
 
         <div class="content-section">
-            <p>My father is my greatest source of inspiration. He introduced me to the world of technology that I love so much. He taught me to fight for my dreams, celebrated all my achievements, and, even though it saddened him to know I’d move to the other side of the world, encouraged me to go.</p>
-        </div>
-
-        <div class="content-section">
-            <p>Today, he’s no longer here. I still miss him and know I always will, but I’m certain he’d celebrate all my accomplishments. He was and always will be my foundation the one who held my hand and kept me steady when life tried to knock me down.</p>
+            <p>Today, he’s no longer here. I still miss him and know I always will. He was and always will be my foundation the one who held my hand and kept me steady when life tried to knock me down.</p>
         </div>
 
         <div class="content-section">
             <p>He drives me, he motivates me, and he inspires me to keep getting better! 😊</p>
         </div>
 
-       <br>
-       <div class="content-section">
-            <p>Before you go! I wanted to share a video with you. It's a thought-provoking message about living life to the fullest and embracing opportunities.</p>
-        </div>
-
-        {% include embed/youtube.html id='vO042aYXCL0' %}
 
     </div>
 </body>
 </html>
-
-
-<!-- <br>
-
-### <span style="color:#991f05"> **What drives you?** **What motivates you?** <br> **What makes or made you the person you are today?** <br><br> <span style="color:#991f05"> **Don’t answer just yet! Read first.** </span> 
-
-### <span style="color:#148f77">My passion for computers and the digital world began in childhood, back when computers were big, noisy, and used floppy disks. It was on one of those machines that I eagerly played SkiFree, Pinball, and other classics. Then came the era of CD-ROMs, and I fell in love with *Full Throttle*.
-
-### <span style="color:#148f77">I remember it like it was yesterday: I used to accompany my father to a friend’s house on the street behind ours to help fix his computer. We’d spend hours there so long that my mom would call, worried about the delay. On our way back, my dad and I would race to see who’d get home first. I always won. Maybe he let me win to make me happy. These simple but deeply meaningful moments are etched into my memory forever.  
-
-### <span style="color:#148f77">As a teenager, I fully immersed myself in the digital world. At first, I was just an enthusiastic user, spending hours on the computer: gaming, listening to music, or chatting on mIRC. Noticing my excitement and my lack of bedtime limits my dad started to regulate my screen time. He set up a firewall (Black ICE, anyone remember it?) to block computer usage during certain hours.  
-
-### <span style="color:#148f77">And that’s when our “game” began. He’d come up with ways to stop me from staying up late on the computer, and I’d challenge myself to find ways to bypass his restrictions. This “strategy game” turned into a fun learning experience that deepened my love for technology.  
-
-### <span style="color:#148f77">At the end of high school, when the time came to decide on a college major, I was torn between Physical Education (another passion of mine) and Technology. I ultimately chose the path of technology, which is now both my profession and my passion.  
-
-### <span style="color:#148f77">The answer to all the questions at the beginning of this text? **My dad!** 
-
-### <span style="color:#148f77">My father is my greatest source of inspiration. He introduced me to the world of technology that I love so much. He taught me to fight for my dreams, celebrated all my achievements, and, even though it saddened him to know I’d move to the other side of the world, encouraged me to go.  
-
-### <span style="color:#148f77">Today, he’s no longer here. I still miss him and know I always will, but I’m certain he’d celebrate all my accomplishments. He was and always will be my foundation the one who held my hand and kept me steady when life tried to knock me down.  
-
-### <span style="color:#148f77">He drives me, he motivates me, and he inspires me to keep getting better!  
-
-### <span style="color:#148f77">And you? What drives you? What inspires you? What motivates you to grow?   -->
