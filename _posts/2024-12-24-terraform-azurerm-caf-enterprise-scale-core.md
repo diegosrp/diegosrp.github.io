@@ -11,7 +11,8 @@ tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastru
 ## Overview
 The core capability of this module deploys the foundations of the conceptual architecture for Azure landing zones, with a focus on the central resource organization.
 
-![](/assets/img/posts/core_module.png)
+![](https://stpersonalblog24.blob.core.windows.net/posts/core_design.png)
+<!-- ![](/assets/img/posts/core_module.png) -->
 
 ### Resource types
 
@@ -36,7 +37,8 @@ The exact number of resources that the module creates depends on the module conf
 ---
 
 ### Management group structure
-![](/assets/img/posts/core_mg.png) 
+![](https://stpersonalblog24.blob.core.windows.net/posts/core_mg.png) 
+<!-- ![](/assets/img/posts/core_mg.png)  -->
 
 ### Role definitions, Initiative and policies files 
 <a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/tree/v6.2.0/modules/archetypes/lib/role_definitions" target="_blank">`role_definitions`</a>, <br><a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/tree/v6.2.0/modules/archetypes/lib/policy_definitions" target="_blank">`policy_definitions`</a>, <br> <a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/tree/v6.2.0/modules/archetypes/lib/policy_set_definitions" target="_blank">`policy_set_definitions`</a>, <br> <a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/tree/v6.2.0/modules/archetypes/lib/policy_assignments" target="_blank">`policy_assignments`</a>.
@@ -84,7 +86,8 @@ For brownfield environments, you may also wish to manually move existing Subscri
 ## Let's start with the minimal configuration of the core submodule, where the following management group structure will be created.
 
 `terraform.tf`
-![](/assets/img/posts/core_tf1.png)
+![](https://stpersonalblog24.blob.core.windows.net/posts/core_terraform.png)
+<!-- ![](/assets/img/posts/core_tf1.png) -->
 > In this example, I will use a local backend and separate the submodules into individual states to minimize blast radius. However, I strongly recommend using a remote state for team collaboration and production environments.
 {: .prompt-info }
 
@@ -95,30 +98,35 @@ For brownfield environments, you may also wish to manually move existing Subscri
 <br>
 
 `data.tf`
-![](/assets/img/posts/core_data1.png)
+![](https://stpersonalblog24.blob.core.windows.net/posts/core_data.png)
+<!-- ![](/assets/img/posts/core_data1.png) -->
 
 <br>
 
 `main.tf`
-![](/assets/img/posts/core_main1.png)
+![](https://stpersonalblog24.blob.core.windows.net/posts/core_main.png)
+<!-- ![](/assets/img/posts/core_main1.png) -->
 > Remember that the module includes the submodules: core, management, connectivity, and identity. At this moment, we are starting with only the core submodule with the minimum possible configuration. Thus, I will repeat the `azurerm` provider for the other submodules.
 {: .prompt-info }
 
 <br>
 
 `variables.tf`
-![](/assets/img/posts/core_variables1.png)
+![](https://stpersonalblog24.blob.core.windows.net/posts/core_variables.png)
+<!-- ![](/assets/img/posts/core_variables1.png) -->
 
 <br>
 
 `terraform.tfvars`
-![](/assets/img/posts/core_tfvars1.png)
+![](https://stpersonalblog24.blob.core.windows.net/posts/core_tfvars.png)
+<!-- ![](/assets/img/posts/core_tfvars1.png) -->
 
 > Remember to **replace** the fields marked with `< >`.
 {: .prompt-warning }
 
 
-![](/assets/img/posts/core_tf_plan1.png)
+![](https://stpersonalblog24.blob.core.windows.net/posts/core_plan.png)
+<!-- ![](/assets/img/posts/core_tf_plan1.png) -->
 
 <br>
 🔗 Check out the repository and stay tuned for future updates: <a href="https://github.com/diegosrp/azure-caf/tree/v1.0.0/core" target="_blank">https://github.com/diegosrp/azure-caf/core</a>

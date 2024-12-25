@@ -1,5 +1,5 @@
 ---
-title: Infinit Mario Bros 
+title: Infinite Mario Bros 
 date: 2023-04-21 22:00 +1300
 categories: [PlaySpace, Game]
 tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastructure, docker, container, game, mariobros]
@@ -12,7 +12,8 @@ Are you a fan of the iconic game Mario? If you've played it before, you'll know 
 
 To relive those good old days and have some fun, I created an automation using Terraform + Azure, utilizing the concept of a "module" to deploy the **Infinite Super Mario game**.
 
-![](/assets/img/posts/infinite_mario_bros.png)
+<!-- ![](/assets/img/posts/infinite_mario_bros.png) -->
+![](https://stpersonalblog24.blob.core.windows.net/posts/infinite_mario_bros.png)
 
 We found an amazing image on Docker Hub that made it easy to set up and play this beloved game.
 

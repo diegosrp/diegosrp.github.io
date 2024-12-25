@@ -6,6 +6,7 @@ tags: [hashicorp, terraform, iac, automation, infrastructure, governance, finops
 ---
 
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
+[![Azure](https://img.shields.io/badge/provider-Azure-blue)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 
 ### **Terraform is based on blocks, where each block has a specific function in defining infrastructure.**
 
@@ -14,7 +15,8 @@ tags: [hashicorp, terraform, iac, automation, infrastructure, governance, finops
 <br>
 
 Example:
-![](/assets/img/posts/block_resource.png){: .left }
+![](https://stpersonalblog24.blob.core.windows.net/posts/block_resource.png){: .left }
+<!-- ![](/assets/img/posts/block_resource.png){: .left } -->
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -22,7 +24,8 @@ Example:
 <br>
 
 Example:
-![](/assets/img/posts/block_data.png){: .left }
+![](https://stpersonalblog24.blob.core.windows.net/posts/block_data.png){: .left }
+<!-- ![](/assets/img/posts/block_data.png){: .left } -->
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -30,7 +33,8 @@ Example:
 <br>
 
 Example:
-![](/assets/img/posts/block_variable.png){: .left }
+![](https://stpersonalblog24.blob.core.windows.net/posts/block_variable.png){: .left }
+<!-- ![](/assets/img/posts/block_variable.png){: .left } -->
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -38,7 +42,8 @@ Example:
 <br>
 
 Example:
-![](/assets/img/posts/block_output.png){: .left }
+![](https://stpersonalblog24.blob.core.windows.net/posts/block_output.png){: .left }
+<!-- ![](/assets/img/posts/block_output.png){: .left } -->
 
 <br>
 
@@ -50,7 +55,8 @@ Example:
 
 Example:
 
-![](/assets/img/posts/block_provider.png){: .left }
+![](https://stpersonalblog24.blob.core.windows.net/posts/block_provider.png){: .left }
+<!-- ![](/assets/img/posts/block_provider.png){: .left } -->
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -60,4 +66,5 @@ Example:
 <br>
 
 Example:
-![](/assets/img/posts/block_module.png){: .left }
+![](https://stpersonalblog24.blob.core.windows.net/posts/block_module.png){: .left }
+<!-- ![](/assets/img/posts/block_module.png){: .left } -->
