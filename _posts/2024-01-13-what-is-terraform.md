@@ -7,6 +7,8 @@ tags: [hashicorp, terraform, iac, automation, infrastructure, governance, finops
 
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
 
+---
+
 ## **Terraform is an Infrastructure as Code (IaC) tool developed by HashiCorp. It enables users to define and provision infrastructure declaratively using configuration files that describe the desired state of the infrastructure.**
 
 <br>

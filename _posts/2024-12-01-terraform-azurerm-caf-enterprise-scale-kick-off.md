@@ -11,6 +11,8 @@ image:
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
 [![Azure](https://img.shields.io/badge/provider-Azure-blue)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 
+---
+
 <a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale" target="_blank">https://github.com/Azure/terraform-azurerm-caf-enterprise-scale</a> is a set of Terraform modules developed by Microsoft to aid in the deployment and management of resources in Azure following the best practices of <a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/" target="_blank">Microsoft's Cloud Adoption Framework (CAF)</a>.
 
 <br>

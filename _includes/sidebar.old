@@ -1,5 +1,4 @@
 <!-- The Side Bar -->
-
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
@@ -14,17 +13,35 @@
     <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
-  <!-- .profile-wrapper -->
 
+  <!-- .profile-wrapper -->
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
+
       <!-- home -->
-      <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
+      <li class="nav-item{% if page.layout == 'about' %}{{ " active" }}{% endif %}">
         <a href="{{ '/' | relative_url }}" class="nav-link">
-          <i class="fa-fw fas "></i>
+          <i class="fa-fw "></i>
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
+
+      <!-- categories -->
+      <li class="nav-item{% if page.layout == 'categories' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/categories' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas "></i>
+          <span>CATEGORIES</span>
+        </a>
+      </li>
+
+      <!-- posts -->
+      <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/post' | relative_url }}" class="nav-link">
+          <i class="fa-fw "></i>
+          <span>POSTS</span>
+        </a>
+      </li>
+
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
@@ -35,6 +52,7 @@
             <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
           </a>
         </li>
+
         <!-- .nav-item -->
       {% endfor %}
     </ul>

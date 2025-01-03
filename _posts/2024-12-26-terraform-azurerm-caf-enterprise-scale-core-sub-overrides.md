@@ -8,8 +8,14 @@ tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastru
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
 [![Azure](https://img.shields.io/badge/provider-Azure-blue)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 
-### What is a *Management Group*?
-A *Management Group* in Azure is a hierarchical structure that allows you to organize and manage multiple *subscriptions* in a centralized and scalable way. It acts as a container for *subscriptions*, making it easier to apply policies, access controls, and configurations consistently across multiple *subscriptions* at once. The main advantage of a *management group* is the inheritance of settings and policies, meaning that any configuration applied to a *management group* will automatically propagate to all the *subscriptions* within it.
+---
+
+### What is a *Management Group*?  
+A *Management Group* in Azure is a hierarchical structure designed to centralize and streamline the organization and management of multiple *subscriptions*. Acting as a container for *subscriptions*, it simplifies the application of policies, access controls, and configurations across all associated *subscriptions*.  
+
+One of the key benefits of a *management group* is the automatic inheritance of settings and policies. This means that any configuration applied to a *management group* cascades down to all the *subscriptions* within it, ensuring consistency and reducing administrative overhead.  
+
+You can structure *management groups* to align with your specific needs, such as by environment (e.g., development, staging, production), project, resource type, or other logical groupings.
 
 ---
 
