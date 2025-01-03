@@ -8,6 +8,8 @@ tags: [hashicorp, terraform, iac, automation, infrastructure, governance, finops
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
 [![Azure](https://img.shields.io/badge/provider-Azure-blue)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 
+---
+
 ### **Terraform is based on blocks, where each block has a specific function in defining infrastructure.**
 
 #### **Some of the main blocks include:**

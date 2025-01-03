@@ -7,6 +7,8 @@ tags: [cloud, microsoft, azure, policy, governance, infrastructure, security, fi
 
 [![Azure](https://img.shields.io/badge/provider-Azure-blue)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 
+---
+
 ## Deployment type overview
 
 Azure OpenAI offers in this moment, three main deployment types, each optimized for different latency, throughput, and cost requirements:

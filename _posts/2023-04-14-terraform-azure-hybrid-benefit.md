@@ -10,6 +10,8 @@ image:
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
 [![Azure](https://img.shields.io/badge/provider-Azure-blue)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 
+---
+
 ## What is Azure Hybrid Benefit (AHB)?
 Azure Hybrid Benefit is a valuable cost-saving benefit that allows you to leverage your existing on-premises Windows Server and SQL Server licenses with active Software Assurance or subscriptions on Azure. By taking advantage of this benefit, you can save up to 85% compared to standard pay-as-you-go rates and achieve the lowest possible cost of ownership when you combine it with reservations savings and extended security updates. Azure Hybrid Benefit can also be applied to SQL on Azure and Azure Dedicated Host, and it provides dual-use rights for 180 days, enabling you to maintain your on-premises operations while migrating to Azure. Additionally, this benefit now extends to RedHat and SUSE Linux subscriptions, offering even more flexibility.
 
