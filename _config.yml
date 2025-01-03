@@ -155,7 +155,6 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
-# paginate_path: "/blog/page:num/"
 
 # The base URL of your site
 baseurl: ""
@@ -191,8 +190,6 @@ defaults:
     # DO NOT modify the following parameter unless you are confident enough
     # to update the code of all other post links in this project.
     permalink: /posts/:title/
-    # permalink: /post/:title/
-    # permalink: /blog/:title/
 - scope:
     path: _drafts
   values:

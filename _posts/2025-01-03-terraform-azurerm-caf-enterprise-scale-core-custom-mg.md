@@ -90,4 +90,3 @@ Additionally, the following parameters have been added:
     Default: `false`
 
 Lastly, changes have been made regarding on settings.core.tf **subscriptions** for the **Management Group**, **Connectivity**, and **Management** resources, but these depend on your specific environment.
-
