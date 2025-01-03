@@ -36,10 +36,11 @@ How you would add a simple Management Group called **CUSTOM** under the *mg-exam
 Management Groups after the custom_landing_zones parameter is added:
 ![](https://stpersonalblog24.blob.core.windows.net/posts/custom_landing_zones_mg_structure.png)
 
----
+🔗 Check out the repository and stay tuned for future updates: <a href="https://github.com/diegosrp/azure-caf/tree/v1.0.2/core" target="_blank">https://github.com/diegosrp/azure-caf/core/adding_custom_management_group</a>
 
 <br>
 
+---
 **Adjustments in the repository**,
 several changes have been made in this version of the repository that do not directly affect the `custom_landing_zones` parameter itself.
 
@@ -89,6 +90,3 @@ Additionally, the following parameters have been added:
     Default: `false`
 
 Lastly, changes have been made regarding on settings.core.tf **subscriptions** for the **Management Group**, **Connectivity**, and **Management** resources, but these depend on your specific environment.
-
-<br>
-🔗 Check out the repository and stay tuned for future updates: <a href="https://github.com/diegosrp/azure-caf/tree/v1.0.2/core" target="_blank">https://github.com/diegosrp/azure-caf/core/adding_custom_management_group</a>
