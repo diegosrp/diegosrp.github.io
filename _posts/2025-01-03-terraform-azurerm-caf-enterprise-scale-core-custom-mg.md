@@ -10,7 +10,7 @@ tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastru
 
 ---
 
-### What does the custom_landing_zones parameter do?  
+### What does the **custom_landing_zones** parameter do?  
 The **custom_landing_zones** parameter is used to deploy additional Management Groups within the core Management Group hierarchy.
 
 ![](https://stpersonalblog24.blob.core.windows.net/posts/custom_landing_zones_main.png)
