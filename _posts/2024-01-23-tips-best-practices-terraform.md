@@ -1,5 +1,5 @@
 ---
-title: Tips for Terraform Best Practices
+title: Tips for Terraform best practices
 date: 2024-01-23 22:00 +1300
 categories: [Concepts & Tips, HashiCorp Terraform]
 tags: [hashicorp, terraform, iac, automation, infrastructure, governance, bestpractices, finops]
