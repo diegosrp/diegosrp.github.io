@@ -21,7 +21,7 @@ Now, it’s time to put that knowledge into practice.
 <br>
 
 ## How to Associate a Policy created by the module with a different Management Group?
-In this example, we will add the policy `"Deny-Subnet-Without-Nsg",` to the management group `mg-example-management`, which was created by the module.  
+In this example, we will add the policy `"Deny-Subnet-Without-Nsg"`, to the management group `mg-example-management`, which was created by the module.  
 
 To achieve this, I created the file `archetype_extension_es_management.json` in the `lib/archetype_definitions` folder. Inside the file structure, I added the policy name under the `policy_assignments` array, as shown in the example below:
 
@@ -29,7 +29,7 @@ To achieve this, I created the file `archetype_extension_es_management.json` in 
 {
   "extend_es_management": {
     "policy_assignments": [
-     "Deny-Subnet-Without-Nsg",
+      "Deny-Subnet-Without-Nsg",
     ],
     "policy_definitions": [],
     "policy_set_definitions": [],
@@ -82,7 +82,7 @@ I added the initiative to the `policy_assignments` array in `archetype_extension
 {
   "extend_es_management": {
     "policy_assignments": [
-     "Deny-Subnet-Without-Nsg",,
+      "Deny-Subnet-Without-Nsg",
       "ISO-27001"
     ],
     "policy_definitions": [],
@@ -166,11 +166,11 @@ After creating the file, I Added the initiative to the `policy_definitions` arra
 {
   "extend_es_management": {
       "policy_assignments": [
-      "Deny-Subnet-Without-Nsg",,
-       "ISO-27001"
+        "Deny-Subnet-Without-Nsg",,
+        "ISO-27001"
       ],
       "policy_definitions": [
-       "Restrict-Cognitive-Services-Types"
+        "Restrict-Cognitive-Services-Types"
       ],
       "policy_set_definitions": [],
       "role_definitions": [],
@@ -189,7 +189,6 @@ To achieve this, I created a file named `policy_set_definition_custom_example_in
 {
   "name": "Example-Initiative",
   "type": "Microsoft.Authorization/policySetDefinitions",
-  "id": "/providers/Microsoft.Management/managementGroups/mg-example-management/providers/Microsoft.Authorization/policySetDefinitions/Example-Initiative",
   "properties": {
     "displayName": "Example Initiative",
     "policyType": "Custom",
@@ -211,7 +210,7 @@ To achieve this, I created a file named `policy_set_definition_custom_example_in
     "policyDefinitions": [
       {
         "policyDefinitionReferenceId": "Provisioned-Managed deployment type is not allowed",
-        "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/mg-example-management/providers/Microsoft.Authorization/policyDefinitions/Restrict-Cognitive-Services-Types",
+        "policyDefinitionId": "${root_scope_resource_id}-management/providers/Microsoft.Authorization/policyDefinitions/Restrict-Cognitive-Services-Types",
         "definitionVersion": "1.*.*",
         "effectiveDefinitionVersion": "1.0.0",
         "parameters": {}
@@ -242,14 +241,14 @@ After creating the file, I Added the initiative to the `policy_set_definitions` 
 {
   "extend_es_management": {
       "policy_assignments": [
-      "Deny-Subnet-Without-Nsg",,
-       "ISO-27001"
+        "Deny-Subnet-Without-Nsg",,
+        "ISO-27001"
       ],
       "policy_definitions": [
-       "Restrict-Cognitive-Services-Types"
+        "Restrict-Cognitive-Services-Types"
       ],
       "policy_set_definitions": [
-       "Example-Initiative"
+        "Example-Initiative"
       ],
       "role_definitions": [],
       "archetype_config": {}
@@ -272,7 +271,7 @@ To associate the custom initiative, I created a file named `policy_assignment_es
   "properties": {
     "description": "Just an example initiative.",
     "displayName": "Example Initiative Assignment",
-    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/mg-example-management/providers/Microsoft.Authorization/policySetDefinitions/Example-Initiative",
+    "policyDefinitionId": "${root_scope_resource_id}-management/providers/Microsoft.Authorization/policySetDefinitions/Example-Initiative",
     "nonComplianceMessages": [
       {
         "message": "Resources under this scope must comply with the Example Initiative."
@@ -296,15 +295,15 @@ After creating the file, I Added the initiative to the `policy_assignments` arra
 {
   "extend_es_management": {
       "policy_assignments": [
-      "Deny-Subnet-Without-Nsg",,
-       "ISO-27001",
-       "Ex-Init-Assign"
+        "Deny-Subnet-Without-Nsg",,
+        "ISO-27001",
+        "Ex-Init-Assign"
       ],
       "policy_definitions": [
-       "Restrict-Cognitive-Services-Types"
+        "Restrict-Cognitive-Services-Types"
       ],
       "policy_set_definitions": [
-       "Example-Initiative"
+        "Example-Initiative"
       ],
       "role_definitions": [],
       "archetype_config": {}
@@ -321,5 +320,7 @@ In summary, you need to determine if the policy/initiative you want already exis
 
 You can also check the documentation through the repository's <a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BExamples%5D-Assign-a-Built-in-Policy#libpolicy_assignmentspolicy_assignment_not_allowed_resource_typesjson" target="_blank">wiki</a>.
 
-We can review the definitions and associations of the policies/initiatives created by the module within each folder:  
-<a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/tree/main/modules/archetypes/lib" target="_blank">Module Library</a>
+We can review the definitions and associations of the policies/initiatives created by the module within each  
+<a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/tree/main/modules/archetypes/lib" target="_blank">Module Library</a> folder
+
+<a href="https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure" target="_blank">Azure Policy assignment structure</a>
