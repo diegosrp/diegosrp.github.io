@@ -45,7 +45,7 @@ Reference: <a href="https://microsoft.github.io/finops-toolkit/workbooks/optimiz
 The Orphan Resources Workbook is an Azure Monitor workbook designed to identify and manage orphaned resources in Azure environments. It helps reduce costs, prevent misconfigurations, and simplify operations by providing a centralized view of unused or unnecessary resources.
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdolevshor%2Fazure-orphan-resources%2Fmain%2FWorkbook%2FAzure%2520Orphaned%2520Resources%2520v3.0.json" ><img src="https://aka.ms/deploytoazurebutton"></a>
-![](https://private-user-images.githubusercontent.com/69309933/383991336-76ce2f92-91ff-4afc-b5c0-2246e5567a1f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc3NzQ4NjIsIm5iZiI6MTczNzc3NDU2MiwicGF0aCI6Ii82OTMwOTkzMy8zODM5OTEzMzYtNzZjZTJmOTItOTFmZi00YWZjLWI1YzAtMjI0NmU1NTY3YTFmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTI1VDAzMDkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNhMmRkOGVmMjZlYmE2Mzg1YTU5ZTExNDI2MzQ0MzBhNjA1NTQ1NTVjYTZjNWY2ZjVlODExMzhjZjE1MTQwNGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.w6zEqLYblqA63pS6mUiuSUTNrfxSnVzKAXECwXr-Ao8)
+![](https://stpersonalblog24.blob.core.windows.net/posts/azure_workbooks_orphan.png)
 Reference: <a href="https://techcommunity.microsoft.com/blog/fasttrackforazureblog/azure-orphan-resources/3492198" target="_blank">Techcommunity Blog</a>
 
 ### **4 - Azure Inventory Workbook**
