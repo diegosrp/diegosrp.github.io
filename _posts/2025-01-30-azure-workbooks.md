@@ -32,14 +32,14 @@ The governance workbook is an Azure Monitor workbook that provides a comprehensi
 
  <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fmicrosoft.github.io%2Ffinops-toolkit%2Fdeploy%2Fgovernance-workbook-latest.json/createUIDefinitionUri/https%3A%2F%2Fmicrosoft.github.io%2Ffinops-toolkit%2Fdeploy%2Fgovernance-workbook-latest.ui.json" ><img src="https://aka.ms/deploytoazurebutton" alt="Deploy to Azure button"></a>
 ![](https://stpersonalblog24.blob.core.windows.net/posts/azure_workbooks_governance.png)
-Reference: <a href="https://microsoft.github.io/finops-toolkit/workbooks/governance" target="_blank">FinOps toolkit</a>
+Reference: <a href="https://learn.microsoft.com/en-us/cloud-computing/finops/toolkit/workbooks/governance" target="_blank">FinOps toolkit</a>
 
 ### **2 - Cost optimization Workbook**
 The cost optimization workbook is an Azure Monitor workbook that provides a single pane of glass for cost optimization, modeled after the Well-Architected Framework guidance.
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fmicrosoft.github.io%2Ffinops-toolkit%2Fdeploy%2Foptimization-workbook-latest.json/createUIDefinitionUri/https%3A%2F%2Fmicrosoft.github.io%2Ffinops-toolkit%2Fdeploy%2Foptimization-workbook-latest.ui.json" ><img src="https://aka.ms/deploytoazurebutton" alt="Deploy to Azure button"></a>
 ![](https://stpersonalblog24.blob.core.windows.net/posts/azure_workbooks_optimization.png)
-Reference: <a href="https://microsoft.github.io/finops-toolkit/workbooks/optimization" target="_blank">FinOps toolkit</a>
+Reference: <a href="https://learn.microsoft.com/en-us/cloud-computing/finops/toolkit/workbooks/optimization" target="_blank">FinOps toolkit</a>
 
 ### **3 - Orphan Resources Workbook**
 The Orphan Resources Workbook is an Azure Monitor workbook designed to identify and manage orphaned resources in Azure environments. It helps reduce costs, prevent misconfigurations, and simplify operations by providing a centralized view of unused or unnecessary resources.
