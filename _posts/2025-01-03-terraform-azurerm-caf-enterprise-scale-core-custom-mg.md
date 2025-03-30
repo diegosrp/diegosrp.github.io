@@ -85,7 +85,7 @@ Additionally, the following parameters have been added:
 
 
   - `disable_telemetry`  
-    Description: If set to `true`, this will disable telemetry for the module. See [Telemetry Documentation](https://aka.ms/alz-terraform-module-telemetry).  
+    Description: If set to `true`, this will disable telemetry for the module. See <a href="https://aka.ms/alz-terraform-module-telemetry" target="_blank">Telemetry Documentation</a><br>
     Type: `bool`  
     Default: `false`
 
