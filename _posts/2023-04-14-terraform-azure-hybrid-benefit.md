@@ -4,7 +4,7 @@ date: 2023-04-14 22:00 +1300
 categories: [Automation, Terraform]
 tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastructure, powershell, ahb, azurehybridbenefit, governance, finops]
 image:
-  path: https://stpersonalblog24.blob.core.windows.net/titles/ahb.png
+  path: /assets/img/titles/ahb.png
 ---
 
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
@@ -32,7 +32,7 @@ Moreover, I have automated the conversion to Azure Hybrid Benefit for Windows VM
 | 06 | Associate the schedule in the runbook within the automation account | a_ahb_schedule.tf |
 | 07 | Role Assignment in Management Group | r_ahb_iam.tf |
 
-![](https://stpersonalblog24.blob.core.windows.net/posts/ahb.png)
+![](/assets/img/posts/ahb.png)
 
 ## Inputs
 The Terraform code requires the following input parameters:

@@ -79,7 +79,7 @@ So I updated the assignments in the `archetype_definition_mg_example_custom.json
 
 
 So now we need to update the `archetype_id` of the Management Group we created in **caf_configure_custom_landing_zones**.
-![](https://stpersonalblog24.blob.core.windows.net/posts/new_archetype.png)
+![](/assets/img/posts/new_archetype.png)
 Notice that the name of the `archetype_id` I added is the same as the `archetype_definition_mg_example_custom.json` file.
 
 <br>

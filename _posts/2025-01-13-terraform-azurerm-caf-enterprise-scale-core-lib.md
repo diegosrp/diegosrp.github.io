@@ -13,7 +13,7 @@ tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastru
 ### What does the **library_path** parameter do?  
 The **library_path** parameter defines the location of a custom library folder for <a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BUser-Guide%5D-Archetype-Definitions" target="_blank">archetype</a>.
 
-![](https://stpersonalblog24.blob.core.windows.net/posts/lib_parameter.png)
+![](/assets/img/posts/lib_parameter.png)
 
 ### Why use a custom library?
 The module enables the creation of a resource management structure in Azure, aligned with the best practices of the Cloud Adoption Framework. However, the default structure may not fully address the unique requirements of every organization. To address this, the module provides the flexibility to add, remove, or update policies and roles, making it a highly valuable feature.

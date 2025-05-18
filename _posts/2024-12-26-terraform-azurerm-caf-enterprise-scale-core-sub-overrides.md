@@ -34,13 +34,13 @@ I will show you how to configure each *subscription* in the corresponding *manag
 
 
 **My current management group structure**
-![](https://stpersonalblog24.blob.core.windows.net/posts/sub_overrides_mg_before.png)
+![](/assets/img/posts/sub_overrides_mg_before.png)
 
 <br>
 
 ## Adding the subscription_id_overrides parameter 
 Inside the `main.tf` file 
-![](https://stpersonalblog24.blob.core.windows.net/posts/sub_overrides_main.png)
+![](/assets/img/posts/sub_overrides_main.png)
 
 <br>
 
@@ -48,12 +48,12 @@ Inside the `main.tf` file
 The configurations will be provided in `settings.core.tf` (the 'default' file used for configuring the core submodule). This way, anyone working with the module and already familiar with it will know exactly where to look for the submodule configurations. 
 
 I will assign subscriptions to the following management groups: `Landing Zones` and `Platform`.
-![](https://stpersonalblog24.blob.core.windows.net/posts/sub_overrides_settings_core.png)
+![](/assets/img/posts/sub_overrides_settings_core.png)
 
 <br>
 
 ### Updated Structure
-![](https://stpersonalblog24.blob.core.windows.net/posts/sub_overrides_mg_after.png)
+![](/assets/img/posts/sub_overrides_mg_after.png)
 
 
 
