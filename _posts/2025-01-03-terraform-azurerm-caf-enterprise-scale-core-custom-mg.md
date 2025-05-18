@@ -13,7 +13,7 @@ tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastru
 ### What does the **custom_landing_zones** parameter do?  
 The **custom_landing_zones** parameter is used to deploy additional Management Groups within the core Management Group hierarchy.
 
-![](https://stpersonalblog24.blob.core.windows.net/posts/custom_landing_zones_main.png)
+![](/assets/img/posts/custom_landing_zones_main.png)
 
 ### Why customize Management Groups when there’s already a structure based on best practices?
  Because not all businesses are the same. Sometimes, the default structure doesn’t align with specific requirements, or unique needs arise that demand adjustments. Luckily, the module allows these customizations seamlessly.
@@ -23,7 +23,7 @@ Planning the hierarchy carefully is essential to maintain clarity and coherence 
 ## Example
 How you would add a simple Management Group called **CUSTOM** under the *mg-example-landing-zones* Management Group, where root_id = *"mg-example"* and using the *default_empty* archetype definition.
 
-![](https://stpersonalblog24.blob.core.windows.net/posts/custom_landing_zones.png)
+![](/assets/img/posts/custom_landing_zones.png)
 
 **Key Parameters:**<br>
 - `display_name` is the name assigned to the Management Group. <br>
@@ -34,7 +34,7 @@ How you would add a simple Management Group called **CUSTOM** under the *mg-exam
 <br>
 
 Management Groups after the custom_landing_zones parameter is added:
-![](https://stpersonalblog24.blob.core.windows.net/posts/custom_landing_zones_mg_structure.png)
+![](/assets/img/posts/custom_landing_zones_mg_structure.png)
 
 🔗 Check out the repository and stay tuned for future updates: <a href="https://github.com/diegosrp/azure-caf/tree/v1.0.2/core" target="_blank">https://github.com/diegosrp/azure-caf/core/adding_custom_management_group</a>
 

@@ -16,7 +16,7 @@ Now, it’s time to put that knowledge into practice.
 > For all the examples in this post, we will work based on `mg-example-management`.
 {: .prompt-warning }
 
-![](https://stpersonalblog24.blob.core.windows.net/posts/lib_parameter.png)
+![](/assets/img/posts/lib_parameter.png)
 
 <br>
 

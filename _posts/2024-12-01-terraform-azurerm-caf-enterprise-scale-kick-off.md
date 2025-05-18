@@ -4,7 +4,7 @@ date: 2024-12-01 22:00 +1300
 categories: [Azure CAF, terraform-azurerm-caf-enterprise-scale]
 tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastructure, security, governance, core, caf, management, policy, enterprise-scale]
 image:
-  path: https://stpersonalblog24.blob.core.windows.net/titles/kick_off_caf.png
+  path: /assets/img/titles/kick_off_caf.png
   # path: /assets/img/titles/caf_overview.png
 ---
 
