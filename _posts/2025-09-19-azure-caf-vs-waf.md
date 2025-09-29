@@ -77,7 +77,7 @@ Use WAF when reviewing the security, cost, or performance of a new web service o
 
 ---
 
-## Summary
+## Conclusion
 
 The Cloud Adoption Framework (CAF) helps you build a strong foundation for your Azure journey, ensuring your environment is secure, governed, and ready for growth. The Well-Architected Framework (WAF) empowers you to design, review, and optimize workloads for reliability, security, performance, and cost-effectiveness. By combining both frameworks, you accelerate cloud adoption and continuously improve your solutions, maximizing value and minimizing risk in Azure.
 
