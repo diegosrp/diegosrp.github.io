@@ -1,7 +1,7 @@
 ---
 title: Introduction to the Core submodule
 date: 2024-12-24 00:30 +1300
-categories: [Azure CAF, terraform-azurerm-caf-enterprise-scale]
+categories: [Azure - Landing zone, terraform-azurerm-caf-enterprise-scale]
 tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastructure, security, governance, core, caf, management, policy, enterprise-scale]
 ---
 

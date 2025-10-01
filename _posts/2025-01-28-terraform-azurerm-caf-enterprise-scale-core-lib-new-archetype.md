@@ -1,7 +1,7 @@
 ---
 title: Creating a new archetype_id
 date: 2025-01-28 00:15 +1300
-categories: [Azure CAF, terraform-azurerm-caf-enterprise-scale]
+categories: [Azure - Landing zone, terraform-azurerm-caf-enterprise-scale]
 tags: [cloud, microsoft, azure, hashicorp, terraform, iac, automation, infrastructure, security, governance, core, caf, management, policy, enterprise-scale]
 ---
 

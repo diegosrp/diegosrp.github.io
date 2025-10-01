@@ -1,7 +1,7 @@
 ---
 title: avm-alz VS caf-enterprise 
 date: 2025-08-05 22:00 +1300
-categories: [Azure CAF, avm-alz]
+categories: [Azure - Landing zone, avm-alz]
 tags: [hashicorp, terraform, iac, automation, infrastructure, governance]
 ---
 

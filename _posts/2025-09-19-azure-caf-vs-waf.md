@@ -1,5 +1,5 @@
 ---
-title: Azure - Cloud Adoption Framework vs. Well-Architected Framework
+title: Cloud Adoption Framework vs. Well-Architected Framework
 date: 2025-09-19 00:00 +1300
 categories: [Cloud, Azure]
 tags: [cloud, microsoft, azure, governance, architecture, caf, waf]

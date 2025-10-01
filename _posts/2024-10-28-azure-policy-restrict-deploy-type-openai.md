@@ -1,5 +1,5 @@
 ---
-title: Azure Policy - Restrict deployment types for Azure OpenAI
+title: Policy - Restrict deployment types for Azure OpenAI
 date: 2024-10-28 22:00 +1300
 categories: [Cloud, Azure]
 tags: [cloud, microsoft, azure, policy, governance, infrastructure, security, finops, openai, ai, json]

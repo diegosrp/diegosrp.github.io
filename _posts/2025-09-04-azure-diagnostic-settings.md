@@ -1,5 +1,5 @@
 ---
-title: Azure - Diagnostic Settings
+title: Diagnostic Settings
 date: 2025-09-04 19:00 +1300
 categories: [Cloud, Azure]
 tags: [cloud, microsoft, azure, monitoring, diagnosticsettings, governance]

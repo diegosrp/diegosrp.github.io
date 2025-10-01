@@ -1,7 +1,7 @@
 ---
 title: Azure Subnet Peering
 date: 2025-08-25 22:00 +1300
-categories: [PlaySpace, Demo]
+categories: [PlaySpace, Demos]
 tags: [cloud, microsoft, azure, infrastructure, subnet, peering, vnet]
 image:
   path: /assets/img/titles/snet_peering.png

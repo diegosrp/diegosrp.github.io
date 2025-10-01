@@ -1,7 +1,7 @@
 ---
 title: Challenge - The Cloud Bootcamp
 date: 2021-08-01 22:00 +1300
-categories: [PlaySpace, Demo]
+categories: [PlaySpace, Demos]
 tags: [multicloud, cloud, google, gcp, amazon, aws, hashicorp, terraform, iac, automation, kubernetes, docker, k8s, s3]
 ---
 

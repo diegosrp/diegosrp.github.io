@@ -1,7 +1,7 @@
 ---
 title: 🎙️ Participation in the LowOpsCast! 
 date: 2025-01-11 19:30 +1300
-categories: [PlaySpace, Live]
+categories: [Events & Community, Lives]
 tags: [cloud, microsoft, azure, terraform, iac, automation, infrastructure, devops, carreira, batepapo, internacional, podcast, tecnologia, lowops]
 ---
 

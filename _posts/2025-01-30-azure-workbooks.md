@@ -1,5 +1,5 @@
 ---
-title: Azure Workbooks
+title: Workbooks
 date: 2025-01-30 00:15 +1300
 categories: [Cloud, Azure]
 tags: [cloud, microsoft, azure, infrastructure, security, governance, management, workbook, dashboard]
