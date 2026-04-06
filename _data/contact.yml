@@ -1,15 +1,15 @@
 #  The contact options.
 
-- type: linkedin
-  icon: 'fab fa-linkedin' # icons powered by <https://fontawesome.com/>
-  url: 'https://www.linkedin.com/in/diegopauletto90/' # Fill with your Linkedin homepage
+- type: youtube
+  icon: 'fab fa-youtube'
+  url: 'https://www.youtube.com/@diegopauletto'
 
 - type: github
   icon: "fab fa-github"
 
-# - type: youtube
-#   icon: 'fab fa-youtube'
-#   url: 'https://www.youtube.com/@diegopauletto'
+- type: linkedin
+  icon: 'fab fa-linkedin' # icons powered by <https://fontawesome.com/>
+  url: 'https://www.linkedin.com/in/diegopauletto90/' # Fill with your Linkedin homepage
 
 - type: rss
   icon: "fas fa-rss"
