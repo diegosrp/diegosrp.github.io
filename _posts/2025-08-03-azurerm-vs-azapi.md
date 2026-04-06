@@ -107,7 +107,7 @@ When inspecting the terraform state, you will see that both provider blocks are 
 <br><br><br>
 
 
-You can also explore the official [Microsoft documentation](https://learn.microsoft.com/en-us/azure/templates/#terraform-azapi-provider) for detailed information about available APIs and resource definitions used with the AzAPI provider.  <br><br>
+You can also explore the official [Microsoft documentation](https://learn.microsoft.com/en-us/azure/templates/#terraform-azapi-provider?wt.mc_id=MVP_473705) for detailed information about available APIs and resource definitions used with the AzAPI provider.  <br><br>
 
 ---
 

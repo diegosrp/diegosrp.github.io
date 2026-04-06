@@ -84,7 +84,7 @@ The Cloud Adoption Framework (CAF) helps you build a strong foundation for your 
 ---
 
 *References:*
-- [Azure Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
-- [What is an Azure Landing Zone](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)
-- [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/what-is-well-architected-framework)
-- [Azure Well-Architected - Assessment](https://learn.microsoft.com/en-us/assessments/azure-architecture-review)
+- [Azure Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview?wt.mc_id=MVP_473705)
+- [What is an Azure Landing Zone](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/?wt.mc_id=MVP_473705)
+- [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/what-is-well-architected-framework?wt.mc_id=MVP_473705)
+- [Azure Well-Architected - Assessment](https://learn.microsoft.com/en-us/assessments/azure-architecture-review?wt.mc_id=MVP_473705)

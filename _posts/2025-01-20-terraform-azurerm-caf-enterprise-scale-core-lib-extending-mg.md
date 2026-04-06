@@ -323,4 +323,4 @@ You can also check the documentation through the repository's <a href="https://g
 We can review the definitions and associations of the policies/initiatives created by the module within each  
 <a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/tree/main/modules/archetypes/lib" target="_blank">Module Library</a> folder
 
-<a href="https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure" target="_blank">Azure Policy assignment structure</a>
+<a href="https://learn.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure?wt.mc_id=MVP_473705" target="_blank">Azure Policy assignment structure</a>

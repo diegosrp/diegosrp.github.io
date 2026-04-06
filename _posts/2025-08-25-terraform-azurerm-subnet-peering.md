@@ -91,13 +91,9 @@ If you want to experiment with the lab by disabling peering between the subnets,
 I'm also adding some reference links on the topic published by Microsoft <br>
 [Subnet Peering](https://techcommunity.microsoft.com/blog/azurenetworkingblog/subnet-peering/4397640) <br>
 [Introducing Subnet Peering in Azure](https://techcommunity.microsoft.com/blog/azurenetworkingblog/introducing-subnet-peering-in-azure/4383841) <br>
-[How to configure subnet peering](https://learn.microsoft.com/en-us/azure/virtual-network/how-to-configure-subnet-peering#subnet-peering-checks-and-limitations) <br>
+[How to configure subnet peering](https://learn.microsoft.com/en-us/azure/virtual-network/how-to-configure-subnet-peering#subnet-peering-checks-and-limitations?wt.mc_id=MVP_473705) <br>
 
-More details about [Bastion Developer](https://learn.microsoft.com/en-us/azure/bastion/quickstart-developer)
-
-
-
-
+More details about [Bastion Developer](https://learn.microsoft.com/en-us/azure/bastion/quickstart-developer?wt.mc_id=MVP_473705)
 
 
 

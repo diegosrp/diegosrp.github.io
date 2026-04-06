@@ -13,7 +13,7 @@ image:
 
 ---
 
-<a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale" target="_blank">https://github.com/Azure/terraform-azurerm-caf-enterprise-scale</a> is a set of Terraform modules developed by Microsoft to aid in the deployment and management of resources in Azure following the best practices of <a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/" target="_blank">Microsoft's Cloud Adoption Framework (CAF)</a>.
+<a href="https://github.com/Azure/terraform-azurerm-caf-enterprise-scale" target="_blank">https://github.com/Azure/terraform-azurerm-caf-enterprise-scale</a> is a set of Terraform modules developed by Microsoft to aid in the deployment and management of resources in Azure following the best practices of <a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/?wt.mc_id=MVP_473705" target="_blank">Microsoft's Cloud Adoption Framework (CAF)</a>.
 
 <br>
 
