@@ -2,7 +2,7 @@
 
 - type: youtube
   icon: 'fab fa-youtube'
-  url: 'https://www.youtube.com/@diegopauletto?sub_confirmation=1'
+  url: 'https://www.youtube.com/@diegopauletto'
 
 - type: github
   icon: "fab fa-github"
