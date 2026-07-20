@@ -260,7 +260,7 @@ When you want to move from reactive governance to a continuous process, with a c
 
 ---
 
-References:
+References: <br>
 [Repository](https://github.com/diegosrp/terraform-azurerm-tag-governance-workbook) <br>
 [Terraform Registry Module](https://registry.terraform.io/modules/diegosrp/tag-governance-workbook/azurerm/latest) <br>
 [Use tags to organize your Azure resources and management hierarchy](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources?wt.mc_id=MVP_473705) <br>
