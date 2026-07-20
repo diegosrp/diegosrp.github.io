@@ -3,8 +3,6 @@ title: "Azure Tag Governance with Terraform and Automated Compliance Monitoring"
 date: 2026-07-20 23:50 +1300
 categories: [Automation, Terraform]
 tags: [azure, cloud, tags, iac, terraform, workbook, governance] 
-image:
-  path: /assets/img/titles/azure_tag_governance.png
 ---
 
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
@@ -263,8 +261,8 @@ When you want to move from reactive governance to a continuous process, with a c
 ---
 
 References:
-[Repository](https://github.com/diegosrp/terraform-azurerm-tag-governance-workbook),
-[Terraform Registry Module](https://registry.terraform.io/modules/diegosrp/tag-governance-workbook/azurerm/latest),
-[Use tags to organize your Azure resources and management hierarchy](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources?wt.mc_id=MVP_473705),
-[Azure Resource Graph overview](https://learn.microsoft.com/en-us/azure/governance/resource-graph/overview?wt.mc_id=MVP_473705),
+[Repository](https://github.com/diegosrp/terraform-azurerm-tag-governance-workbook) <br>
+[Terraform Registry Module](https://registry.terraform.io/modules/diegosrp/tag-governance-workbook/azurerm/latest) <br>
+[Use tags to organize your Azure resources and management hierarchy](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources?wt.mc_id=MVP_473705) <br>
+[Azure Resource Graph overview](https://learn.microsoft.com/en-us/azure/governance/resource-graph/overview?wt.mc_id=MVP_473705) <br>
 [Azure Policy overview](https://learn.microsoft.com/en-us/azure/governance/policy/overview?wt.mc_id=MVP_473705)
