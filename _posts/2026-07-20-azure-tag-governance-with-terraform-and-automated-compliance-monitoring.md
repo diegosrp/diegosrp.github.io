@@ -3,6 +3,8 @@ title: "Azure Tag Governance with Terraform and Automated Compliance Monitoring"
 date: 2026-07-20 23:50 +1300
 categories: [Automation, Terraform]
 tags: [azure, cloud, tags, iac, terraform, workbook, governance] 
+image:
+  path: /assets/img/titles/azure_tag_governance.png
 ---
 
 [![HCL](https://img.shields.io/badge/language-HCL-blueviolet)](https://www.terraform.io/)
@@ -256,19 +258,7 @@ When you want to move from reactive governance to a continuous process, with a c
 
 ### Logical architecture
 
-```mermaid
-flowchart LR
-    A[Terraform Inputs<br/>mandatory_tags, catalogs, exclusions] --> B[Locals and Validations]
-    B --> C[KQL Template Rendering]
-    C --> D[Workbook JSON Template]
-    D --> E[Azure Monitor Workbook]
-    E --> F[Guide Tab]
-    E --> G[Summary Tab]
-    E --> H[Inventory Tab]
-    F --> I[Governance Decisions]
-    G --> I
-    H --> J[Remediation Backlog]
-```
+![](/assets/img/posts/azure_tag_governance.png){: .left }
 
 ---
 
