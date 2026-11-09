@@ -254,10 +254,6 @@ When you want to move from reactive governance to a continuous process, with a c
 
 ![Workbook inventory view](https://raw.githubusercontent.com/diegosrp/terraform-azurerm-tag-governance-workbook/main/images/workbook-inventory.png)
 
-### Logical architecture
-
-![](/assets/img/posts/azure_tag_governance.png){: .left }
-
 ---
 
 References: <br>
