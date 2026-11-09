@@ -9,7 +9,7 @@
 
 - type: linkedin
   icon: 'fab fa-linkedin' # icons powered by <https://fontawesome.com/>
-  url: 'https://www.linkedin.com/in/diegopauletto90/' # Fill with your Linkedin homepage
+  url: 'https://www.linkedin.com/in/diegopauletto/' # Fill with your Linkedin homepage
 
 - type: rss
   icon: "fas fa-rss"
